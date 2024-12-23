@@ -1,0 +1,41 @@
+============================================================
+                 Saved DATA File for TRIM                   
+       Changes will Modify Continued TRIM Calculations      
+============================================================
+TRIM  Version  Number  /  Calculation Name 
+"SRIM-2013.00"    "Ar (10) into Layer 1                    "
+ION DATA:At.Numb, Mass(amu), Energy (keV) , Angle to Target
+          18     39,9620  8,0000E+01    00,0
+ION NUMB: Current, Total, AutoSave, Transmitted, Backscattered 
+        50000 50000  32000    49999    0
+CURRENT ION: Energy(eV),  Depth (X,Y,Z), Trajectory: Cos(X,Y,Z), Sin(X)
+6,53544E+04 1,01642E+02 3,64719E+00 -7,95081E+00 0,984810 0,071741 -0,158122 0,173636
+ION AVGS:  Range,      Straggling,   Vacancies/Ion
+        9,1737E+01   0,0000E+00   3,8457E+01
+ION SUMS:  Range,Straggling,(Vacancies,Replacements,Interstitials)/Ang.
+9,17370E+001  8,41567E+003  7,72028E+005  7,08235E+007  1,92284E+006  9,93840E+004  1,89066E+006  5,50080E+004
+Ion Y-Z Lateral Data :  Range, Straggling, Kurtosis, Radial Dev.
+1,24198E+002  1,54251E+004  1,26639E+002  1,60374E+004
+1,26639E+002  0,00000E+000  1,24198E+002  0,00000E+000  9,97020E+001
+Cascade Type, FileFLAGS: Sputter, Ranges, Backscatter, Transmit, Collisions, Random Seeds(2)
+  3 0 0 0 0 0 2 825332420 1670430364
+TGT DATA: ------- Numb.Elements, Numb.Layers -----------------
+                       1           1
+TGT DATA: Atomic Numb, Mass,  Disp., Binding, Surf. Energy(eV)
+ 5            10,8110       25,00         3,00          5,73
+TGT Layers: Name      Width(A),    Depth(A), Density(g/cm3), Stoichiometry (Tgt.Atoms)
+    "Boron powder" 1,0000E+02             1,0000E+02    2,3502E+00 1,00000E+00
+Lowest E,  Ed(min)  (eV)
+ 1             25 
+Total Sputtered Atoms and Energy (eV)     (Target Atoms 1 - 1  )
+    5,501E+004 3,940E+006 
+Plot Display Start Depth (A), End Depth(A), Depth Resolution (Ang.)
+ 0             100           1 
+Plotting Colors from TRIM.CFG
+ 16777215      255           6             16777215      255           16777215      16777215      16777215      255           8388608       65280         16776960 
+ 16777215  4227327  15982183  16744703  16777088  13159423  16760769  8421376  6422724  8388736  4755857  9408399  16777215 
+ 255  837122  16417654  12519886  13814035  9673727  16711680  65280  12615935  16716287  8700353  12566463  255 
+Collision Plots and Plot Positions
+ 0             0             0             0             0             200           0             0             0             162           0             0 
+Animated Collison Plot Position
+ 2865          2935          3005          3075 
