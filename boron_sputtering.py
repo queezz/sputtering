@@ -123,11 +123,15 @@ def extract_sputtering_yield_tdata(file_path):
                     next_line.split()[0].replace(",", ".").replace("E+", "e")
                 )
 
-            # Extract total incident ions
+            # Extract total incident ions. The line under "ION NUMB:" reads
+            # Current, Total, AutoSave, Transmitted, Backscattered; the
+            # sputtered-atom count belongs to the Current ions (parts[0]), not
+            # to the AutoSave interval (parts[2]), which made every yield
+            # 50000/32000 = 1.5625 times too high until 2026-10-11.
             if "ION NUMB:" in line:
                 next_line = next(file).strip()
                 parts = next_line.split()
-                total_incident_ions = int(parts[2].replace(",", ""))
+                total_incident_ions = int(parts[0].replace(",", ""))
 
             # Stop if both values are found
             if total_sputtered_atoms is not None and total_incident_ions is not None:
